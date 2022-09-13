@@ -21,20 +21,23 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 Create a middleware that generates `custom ID`s, the NPM UUID package can be used. the job of this middleware is to generate and return a unique ID when called.
 
 **Acceptance criteria:** Returns a Unique ID on each call
+
 **Time estimate:** 1 hour
 
 ## TICKET 2: Remove IDs from the returned data.
 
 Remove the IDs from the returned data, this can be done by destructuring the returned data from the `getShiftsByFacility` and then save the new data to an object.
 
-**Acceptance criteria:** shows the new object in the console when function is called
+**Acceptance criteria:** shows the new object in the console when function is called.
+
 **Time estimate:** 1 hour
 
 ## TICKET 3: Add new IDs.
 
 Add new IDs; this can be done by importing and calling the `Custom ID` middleware and adding a new ID to the saved object in `Ticket 2`.
 
-**Acceptance criteria:** Returns the modified data with the new IDs when `getShiftsByFacility` is called
+**Acceptance criteria:** Returns the modified data with the new IDs when `getShiftsByFacility` is called.
+
 **Time estimate:** 1:30 hour
 
 ## TICKET 4: Link `generateReport` with `getShiftsByFacility`.
@@ -42,6 +45,7 @@ Add new IDs; this can be done by importing and calling the `Custom ID` middlewar
 Link `generateReport` with `getShiftsByFacility`; when the generateReport is called, the data gotten will be from the new data gotten from the `getShiftsByFacility` with `Custom ID`. There is no need saving new data to database
 
 **Acceptance criteria:** Returns the modified data with the new IDs
+
 **Time estimate:** 2 hours
 
 ## More breakdown
