@@ -9,3 +9,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+Firstly I broke the code into functions where the hashing and converting to string are done separately.
+
+Each function are called when needed to avoid repetition of code.
+
+The rest are writting a more concise readable if-else statement following the best practices. 
